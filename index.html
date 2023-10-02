@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lyra</title>
+
+    <link rel="stylesheet" href="/fonts.css"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/header.css"><link rel="stylesheet" href="/basscss-grid.css"><link rel="stylesheet" href="/register.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="min-vh-100 container pt4 pb5 flex flex-column justify-between mb5-ns">
+        <header class="header-desktop"></header>
+        <header class="header" id="header">
+          <nav class="nav">
+            <span class="flex justify-center mb2 mb4-ns logo-container">
+              <a href="#header">
+                  <img src='./images/lyra-logo.svg' class="logo-svg"/>
+                </a>
+            </span>
+            <ul class="nav-list flex flex-wrap justify-center bold">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#speakers">Musicians</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#schedule">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#register">Buy Ticket</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+            <div class="intro-date">
+            <h1 class="heading tc">Azymuth in Tbilisi</h1>
+            <h1 class="heading tc">Sep 28, 2018</h1>
+          </div>
+        <div class="tc">
+          <a class="button" href="#register">I’m ready to purchase ticket</a>
+        </div>
+      </div>
+
+    <div class='container'>
+
+        <div class='pt5-ns mb4 mb5-ns' id='about'>
+            <h1 class='heading heading-orange'>
+                About
+            </h1>
+        <div class='sm-col-8 md-col-8 f4'>
+            Lyra Entertainment presents Azymuth in Tbilisi, Georgia. “Samba Doido” in Portuguese means a crazy, insane samba. So is called the music genre born under the Brazilian sun, played by the legendary Trio Azymuth. This is a synthesis of Northern funk, jazz and Southern Samba Soul, which creates a cosmic psychedelia and becomes a favorite tune (melody) for all generations. Azymuth creates a psychedelic jazz architecture, a cosmic Funk and overwhelming Groove, music without borders, which leads souls to the mystical world through dance moves of the body.
+        </div>
+        </div>
+        <div class='flex flex-wrap justify-between mb3 mb5-ns'>
+          <video width='100%' height='100%' autoplay muted loop poster="images/video-poster.png">
+            <source src="https://lb-azymuth-video.s3.eu-north-1.amazonaws.com/promo-video.mp4" type=video/ogg>
+          </video>
+        </div>
+
+      <div class='flex flex-wrap justify-between mb4 mb5-ns'>
+          <div class='col-12 sm-col-5 md-col-4 sm-indent-1 md-indent-2 pt5-ns mb4 mb0-ns'>
+              <img src="images/cover-a.jpg" class="image fade db">
+          </div>
+          <div class='col-12 sm-col-5 md-cl-4'>
+              <blockquote>
+                “Innovators in world fusion. Combining funk, soul and jazz with samba”
+              </blockquote>
+              <p class='cite'>
+                BBC & JazzWise
+          </div>
+      </div>
+
+      <div class="speakers mb4 mb5-ns fade" id="speakers">
+        <h1 class="heading heading-orange ">
+          Musicians
+        </h1>
+        <div class="flex flex-wrap">
+          <div class="speaker col-6 sm-col-3 mb4 mr2">
+            <img src="images/ivan.jpg" class="speaker-image">
+            <p class="speaker-name pr2">
+              Ivan Miguel Conti Maranhão
+            </p>
+            <p class="speaker-title pr2">
+              Drums
+            </p>
+          </div>
+          <div class="speaker col-6 sm-col-3 mb4 mr2">
+            <img src="images/kiko.jpg" class="speaker-image">
+            <p class="speaker-name pr2">
+              Kiko Continentino
+            </p>
+            <p class="speaker-title pr2">
+              Keys
+            </p>
+          </div>
+          <div class="speaker col-6 sm-col-3">
+            <img src="images/alex.jpg" class="speaker-image">
+            <p class="speaker-name pr2">
+              Alex Malheiros
+            </p>
+            <p class="speaker-title pr2">
+              Base
+            </p>
+          </div>
+    
+        </div>
+      </div>
+
+      <div class='about mb4 mb5-ns' id='schedule'>
+        <h1 class='heading heading-orange'>
+          Schedule
+        </h1>
+
+        <div class='schedule-container flex overflow-auto'>
+          <div class='schedule-day'>
+            Friday Sep 28
+          </div>
+          <div class='schedule flex'>
+            <div class="w-20 ph3">
+              <div class="schedule-time">14:00</div>
+              <div class="schedule-event">Sound Check</div>
+            </div>
+            <div class="w-20 ph3">
+              <div class="schedule-time">15:00</div>
+              <div class="schedule-event">Press Conference</div>
+            </div>
+            <div class="w-20 ph3">
+              <div class="schedule-time">20:00</div>
+              <div class="schedule-event">Doors Open</div>
+            </div>
+            <div class="w-20 ph3">
+              <div class="schedule-time">21:00</div>
+              <div class="schedule-event">Concert Starts</div>
+            </div>
+            <div class="w-20 ph3">
+              <div class="schedule-time">23:00</div>
+              <div class="schedule-event">After Party with Zurkin and Band</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="register">
+        <h1 class="heading heading-orange">
+          Register
+        </h1>
+      
+        <div class="flex flex-wrap mb4 mb5-ns">
+          <div class="col-12 sm-col-6 cover register-image"></div>
+          <div class="col-12 sm-col-6 register relative bc orange">
+            <div class="front location flex flex-wrap pa4 items-center bc relative z-2 col-12">
+              <p class="mt0 mb4 col-12">28 Sep, 2018
+                <br> Tbilisi, Georgia
+              </p>
+              <p class="mt0 mb4 col-12">Rebuplic | Andropove Ears
+                <br> 6 Rose Revolution Square, Tbilisi 0108
+              </p>
+              <button class="button button-small button-outline register-button">Buy Ticket</button>
+            </div>
+            <!-- Payment Form -->
+            <form
+            class="back form z-1 pa4 col-12"
+            id="payment-form"
+          >
+            <div class="spinner"></div>
+            <h3 class="mt0 mb2 form-title">Your details</h3>
+            <div class="form-fields">
+              <input name="name" class="mb2 db" placeholder="Name" id="name" required />
+              <input
+                name="email"
+                class="mb2 db"
+                placeholder="Email"
+                id="email"
+                required
+                type="email"
+              />
+              <div id="card-element" class="mb2"></div>
+              <div id="card-errors" role="alert"></div>
+              <div class="pt2">
+                <button class="button button-small">Buy Ticket</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      
+      </div>
+
+      <div class="flex flex-wrap justify-between pt5-ns mb4 mb5-ns">
+        <div class="col-12 sm-col-5 sm-indent-1 mb4 mb0-ns">
+          <img src="images/after-party.jpg" class="image fade db after-img">
+        </div>
+        <div class="col-12 sm-col-5 sm-indent-1 mb4 mb0-ns">
+          <img src="images/venue.jpg" class="image fade db">
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer pv3 pv5-ns">
+      <div class="container flex justify-between items-center">
+        <a href="#top" class="footer-link contain bg-center bg-no-repeat"></a>
+        <nav class="footer-nav flex items-center">
+          <a href="https://www.instagram.com/lyra_entertainment/" target="_blank" class="no-underline db">
+              <img src="images/instagram.svg" class="db">
+            </a>
+          <a href="https://www.facebook.com/LyraEntertainment" target="_blank" class="no-underline ml3 db">
+              <img src="images/facebook.svg" class="db">
+            </a>
+        </nav>
+      </div>
+    </footer>
+
+  <script src="https://js.stripe.com/v3/"></script>
+  <script src="https://unpkg.com/in-view@0.6.1/dist/in-view.min.js"></script>
+  <script src="in-view.js"></script>
+  <script src="tilt.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
