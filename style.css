@@ -9,9 +9,9 @@ body {
     line-height: 1.5;
     color: #414141;
 
-    background-image: url('./images/cover.jpg');
-    background-size: 100% auto;
-    background-position: center top;
+    background-image: url('./images/cover.avif');
+    background-size: 100% 40%;
+    background-position: center center;
 }
 
 a {
