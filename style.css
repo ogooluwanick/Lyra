@@ -12,6 +12,9 @@ body {
     background-image: url('./images/cover.avif');
     background-size: 100% 40%;
     background-position: center center;
+
+    -webkit-backdrop-filter: blur(120px);
+    backdrop-filter: blur(120px);
 }
 
 a {
